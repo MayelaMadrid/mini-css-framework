@@ -6,7 +6,7 @@ button {
     &.is-primary{
          background-color: $medium-blue;
          color: $white;         
-        &.is-primary:hover{
+        &:hover{
         background-color: $white;
         color: $medium-blue;
     }
