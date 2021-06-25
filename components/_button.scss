@@ -1,0 +1,14 @@
+button {
+    font-size: $font-18;
+    font-family: $font-itc;
+    padding: 8px 40px;
+
+    &.is-primary{
+         background-color: $medium-blue;
+         color: $white;         
+        &.is-primary:hover{
+        background-color: $white;
+        color: $medium-blue;
+    }
+    }
+  }
